@@ -66,8 +66,8 @@
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\SDK\NetworkMetricsModel.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\SDK\MatchmakerManagedReleaseCreate.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\SDK\MatchmakerReleaseConfigResponse.cs" />
-    <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\SDK\MetricsResponse.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\AppVersionUpdatePatchData.cs" />
+    <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\SDK\MetricsResponse.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Editor\Api\Models\Results\CreateDeploymentResult.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\SDK\AppVersionWhitelistEntry.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Editor\Api\EdgegapApiBase.cs" />
@@ -149,8 +149,8 @@
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Editor\Api\Models\Results\StopActiveDeploymentResult.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\SDK\MatchmakerCreate.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\SDK\MatchmakerComponentResponse.cs" />
-    <Compile Include="Assets\Mirror\Hosting\Edgegap\Enums\ApiEnvironment.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\SDK\SelectorModel.cs" />
+    <Compile Include="Assets\Mirror\Hosting\Edgegap\Enums\ApiEnvironment.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\SDK\MatchmakerManagedReleaseUpdate.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Editor\Api\EdgegapDeploymentsApi.cs" />
     <Compile Include="Assets\Mirror\Hosting\Edgegap\Models\SDK\PatchSessionModel.cs" />
@@ -700,6 +700,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UltraLiteDB">
+      <HintPath>Library\PackageCache\com.unity.2d.muse\ThirdParty\Plugins\UltraLiteDB.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Mono.CecilX">
       <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
       <Private>False</Private>
@@ -710,6 +714,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LiteDB">
+      <HintPath>Library\PackageCache\com.unity.muse.common\ThirdParty\litedb.5.0.16\lib\netstandard1.3\LiteDB.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
